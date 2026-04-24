@@ -1,0 +1,28 @@
+# macOS Finder noise
+.DS_Store
+**/.DS_Store
+._*
+
+# Editor noise
+*.swp
+*.swo
+*~
+
+# Machine-local overrides
+*.local
+local.*
+
+# Secrets
+*.secret
+*.key
+*.pem
+*.p12
+.env
+.env.*
+
+# App state / caches you usually don't want in dotfiles
+cache/
+Caches/
+logs/
+tmp/
+

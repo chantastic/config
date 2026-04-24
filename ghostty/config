@@ -1,5 +1,0 @@
-theme = dark:tokyonight,light:tokyonight-day
-font-size = 16
-
-keybind = global:cmd+grave_accent=toggle_quick_terminal
-

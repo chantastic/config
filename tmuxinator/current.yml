@@ -1,9 +1,0 @@
-name: node
-root: <%= ENV['PWD'] %>
-
-windows:
-  - editor:
-      panes:
-        - nvim .
-        - p run
-

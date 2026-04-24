@@ -1,3 +1,0 @@
-DOTFILES_DIRS="$HOME/.config/dotfiles"
-
-UNDOTTED="Brewfile Brewfile.lock.json"
