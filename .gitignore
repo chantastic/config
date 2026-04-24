@@ -1,15 +1,16 @@
-# blocklist everything that exists today
+# Ignore everything by default.
+*
 
-.DS_Store
-.clj-kondo/
-.gitignore.swp
-.lsp/
-gh/
-iterm2/
-op/
-raycast/
+# Keep repo metadata files.
+!.gitignore
+!README.md
 
-# allowlist
+# GitHub CLI config.
+!gh/
+gh/*
+!gh/config.yml
+
+# Karabiner config.
+!karabiner/
 karabiner/*
 !karabiner/karabiner.json
-
