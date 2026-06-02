@@ -14,3 +14,7 @@ gh/*
 !karabiner/
 karabiner/*
 !karabiner/karabiner.json
+
+# Neovim kickstart config.
+!nvim/
+!nvim/**
