@@ -1,0 +1,35 @@
+onboarding = false
+
+[ui.toast]
+delivery = "herdr"
+
+[theme]
+name = "tokyo-night"
+
+[ui]
+show_agent_labels_on_pane_borders = true
+agent_panel_sort = "spaces"
+
+[[keys.command]]
+key = "prefix+ctrl+g"
+type = "popup"
+command = "lazygit"
+description = "open lazygit"
+width = "90%"
+height = "90%"
+
+[[keys.command]]
+key = "prefix+ctrl+v"
+type = "popup"
+command = "nvim ."
+description = "open Neovim in the current directory"
+width = "90%"
+height = "90%"
+
+[[keys.command]]
+key = "prefix+ctrl+enter"
+type = "popup"
+command = "/bin/zsh -lic 'exec pi'"
+description = "open Pi in the current directory"
+width = "90%"
+height = "90%"

@@ -15,6 +15,11 @@ gh/*
 karabiner/*
 !karabiner/karabiner.json
 
+# Herdr config.
+!herdr/
+herdr/*
+!herdr/config.toml
+
 # Neovim kickstart config.
 !nvim/
 !nvim/**
